@@ -1,38 +1,38 @@
 Lesson no: 01 (Introduction)
-1. Coding interviews are good tool to check whether the candidate is good problem solver
+1. Coding interviews are a good tool to check whether the candidate is a good problem solver
 2. Coding interview requires 
 	A. ability to convey your idea in a computer language
-	B. Knowledge of datastructure
-3. Datastructure is field in ints self however for the conding interview contest you require knowledge of few well defined datastructures
+	B. Knowledge of data structure
+3. The data structure is a field in ints self however for the coding interview contest you require knowledge of few well-defined data structures
 
 Lesson no: 02 (What are data structures)
-1. What is coding -> on the wholestic view Manipulating the data
-2. To manipulate the data we need to structure it, Data structure is nothing but collection of data value, relationship amongest them and fucntion or operation applied on them.
+1. What is coding -> on the wholistic view Manipulating the data
+2. To manipulate the data we need to structure it, Data structure is nothing but a collection of data value, the relationship amongst them, and function or operation applied to them.
 
 Lesson no: 03 (Complexity Analysis)
-1. Complexivity analysis is required for beter understanding on datastructures
+1. Complexity analysis is required for better understanding of data structures
 2. There can be n number of solutions for a problem and complexity analysis helps us ranking the solutions.
-3. complexivity in sence of computer science is mostly come under time and space complexivity.
-4. The operation on the datastructure comes up with its own time and space complexivity.
+3. complexity in terms of computer science mostly comes under time and space complexity.
+4. The operation on the data structure comes up with its own time and space complexity.
 
 Lesson no: 04 (Memory)
 1. In the computer the memory is limited.
-2. memory is made up of bits (0,1), the smallest accesable memory unit is byte which is 8 bits
-3. You can store the address of variable in the memory slot
+2. memory is made up of bits (0,1), the smallest accessible memory unit is a byte which is 8 bits
+3. You can store the address of a variable in the memory slot
 
 Lesson no: 05 (Big O Notation)
-1. Big O is bench mark for the performance of the algorsssithm.
-2. Lets say you want to get some quantitative sense regarding the runtime of your algotirhm. you can measure the time it takes to execute however its system dependent and also varies on the same system because of underlying process carried out by computer.
-3. So the measuring the time performance in seconds doesnt make any scene and the better way is to measure it with respect to data size.
-4. Same goes for the space complexivity
-5. To represent the complexivity of algorithm we use the term with highest power because as n -> inf smaller terms become less meaningful
-6. Most common complexivity values are 1.O(1) 2.O(log(n)) 3.O(n) 4.O(n*log(n)) 5.O(n^2) 6.O(2^n) 7.O(n!) and they belongs to worst case.
-7. if there are two variables then we will consider both in the time complexivity calculation
+1. Big O is a benchmark for the performance of the algorithm.
+2. Let's say you want to get some quantitative sense regarding the runtime of your algorithm. you can measure the time it takes to execute however its system dependent and also varies on the same system because of the underlying process carried out by computer.
+3. So measuring the time performance in seconds doesn't make any scene and the better way is to measure it concerning data size.
+4. Same goes for the space complexity
+5. To represent the complexity of the algorithm we use the term with the highest power because as n -> inf smaller terms become less meaningful
+6. Most common complexity values are 1.O(1) 2.O(log(n)) 3.O(n) 4.O(n*log(n)) 5.O(n^2) 6.O(2^n) 7.O(n!) and they belongs to worst case.
+7. if there are two variables then we will consider both in the time complexity calculation
 
 Lesson no: 06 (Logarithm)
-1. In computer science we always talk of base 2
-2. O(log(n)) complexivity means you are shrinking the space by half
-3. Most of the Tree traversal oprtations have log(n) complexivity
+1. In computer science, we always talk of base 2
+2. O(log(n)) complexity means you are shrinking the space by half
+3. Most of the Tree traversal operations have log(n) complexity
 
 Lesson no: 07 (Array)
 1. Array is sequential container with continuous memory allocation
@@ -62,12 +62,12 @@ Lesson no: 08 (LinkedList)
   E. Deletion -> space -> O(1), Time -> O(n)
 
 Lesson no: 09 (Hash Table)
-1. In c++ the hash table is implemented as a unordered versions of map and sets
-2. Under the hood the hash tables are very complicated to make them more efficient
+1. In c++ the hash table is implemented as unordered versions of map and sets
+2. Under the hood, the hash tables are very complicated to make them more efficient
 3. Input -> pass through hash function -> create a value 
-4. There is possibility of collision which will be caused because of same output from hash fucntion
-5. Hash table stores the data in key -> value pair and Hash tables are associative data structure
-6. Multiple value for a key(collision) is stored in linked list or tree or other hash table
+4. There is a possibility of a collision which will be caused because of the same output from the hash function
+5. Hash table stores the data in key -> value pair and Hash tables are an associative data structure
+6. Multiple values for a key(collision) is stored in a linked list or tree or another hash table
 7. Basic operation on the array (on average)
   A. Search -> space -> O(1), Time -> O(1)
   B. Insertion -> space -> O(1), Time -> O(1)
@@ -90,53 +90,15 @@ Lesson no: 11 (String)
   C. search -> space -> O(1), Time -> O(1)
 
 Lesson no: 12 (Graphs)
-1. Graphs is datastructure int which nodes are may or may not be connected to one another
-2. Graph is defined by vertices and edges
-3. Graph can be defined as a connected or disconnected, directed or undirected, cyclic or acyclic graph.
-4. Graph is stored as a adjacency matrix or adjacency list based on the connectivity
-5. Graph is traverse using BFS and DFS ways and space time complexivity is O(V+E)
+1. Graphs are data structure int which nodes are may or may not be connected
+2. The graph is defined by vertices and edges
+3. The graph can be defined as a connected or disconnected, directed or undirected, cyclic, or acyclic graph.
+4. The graph is stored as an adjacency matrix or adjacency list based on the connectivity
+5. The graph is traverse using BFS and DFS ways and space-time complexity is O(V+E)
 
 Lesson no: 12 (Tree)
-1. Tree is heirarchical datastructure
-2. Tree is type of graph which is rooted ie. only one parent and only one way to reach the node and tree cant be disconnected
-3. Famous type of tree is binary tree where every node has atmost 2 childrens
-4. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. A tree is a hierarchical data structure
+2. The tree is a type of graph which is rooted ie. only one parent and only one way to reach the node and tree cant be disconnected
+3. A famous type of tree is a binary search tree where every node has at most 2 children and all the nodes on left is smaller than the right one. and min-heap.
+4. Most of the operation is O(log(n)) if the tree is balanced
 
