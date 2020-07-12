@@ -1,0 +1,142 @@
+Lesson no: 01 (Introduction)
+1. Coding interviews are good tool to check whether the candidate is good problem solver
+2. Coding interview requires 
+	A. ability to convey your idea in a computer language
+	B. Knowledge of datastructure
+3. Datastructure is field in ints self however for the conding interview contest you require knowledge of few well defined datastructures
+
+Lesson no: 02 (What are data structures)
+1. What is coding -> on the wholestic view Manipulating the data
+2. To manipulate the data we need to structure it, Data structure is nothing but collection of data value, relationship amongest them and fucntion or operation applied on them.
+
+Lesson no: 03 (Complexity Analysis)
+1. Complexivity analysis is required for beter understanding on datastructures
+2. There can be n number of solutions for a problem and complexity analysis helps us ranking the solutions.
+3. complexivity in sence of computer science is mostly come under time and space complexivity.
+4. The operation on the datastructure comes up with its own time and space complexivity.
+
+Lesson no: 04 (Memory)
+1. In the computer the memory is limited.
+2. memory is made up of bits (0,1), the smallest accesable memory unit is byte which is 8 bits
+3. You can store the address of variable in the memory slot
+
+Lesson no: 05 (Big O Notation)
+1. Big O is bench mark for the performance of the algorsssithm.
+2. Lets say you want to get some quantitative sense regarding the runtime of your algotirhm. you can measure the time it takes to execute however its system dependent and also varies on the same system because of underlying process carried out by computer.
+3. So the measuring the time performance in seconds doesnt make any scene and the better way is to measure it with respect to data size.
+4. Same goes for the space complexivity
+5. To represent the complexivity of algorithm we use the term with highest power because as n -> inf smaller terms become less meaningful
+6. Most common complexivity values are 1.O(1) 2.O(log(n)) 3.O(n) 4.O(n*log(n)) 5.O(n^2) 6.O(2^n) 7.O(n!) and they belongs to worst case.
+7. if there are two variables then we will consider both in the time complexivity calculation
+
+Lesson no: 06 (Logarithm)
+1. In computer science we always talk of base 2
+2. O(log(n)) complexivity means you are shrinking the space by half
+3. Most of the Tree traversal oprtations have log(n) complexivity
+
+Lesson no: 07 (Array)
+1. Array is sequential container with continuous memory allocation
+2. Static array -> array, Dynamic array -> vector
+3. Basic operation on the array
+  A. Read -> space -> O(1), Time -> O(1)
+  B. Modify -> space -> O(1), Time -> O(1)
+  C. Initialize -> space -> O(n), Time -> O(n)
+  D. Traversal -> space -> O(1), Time -> O(n)
+  E. Copy -> space -> O(n), Time -> O(n)
+  F. Insertion -> space -> O(n), Time -> O(n)
+  E. Deletion -> space -> O(n), Time -> O(n)
+
+Lesson no: 08 (LinkedList)
+1. Array is sequential container with NON-continuous memory allocation
+2. In LinkedList we store the element in Node->[Data | Adr to next Node]
+3. The trade of the linkedlist the element is we need extra space to store the adr but it gives the flexibility to store the number where ever we want
+4. The linkedList is identified by address of first node(HEAD) and last node in linked list points to NULL(Which is nothing but memory address by Memory management to point to nothing)
+5. The linked list can be sibgly connected, doubly connected or circularly connected
+6. Basic operation on the array
+  A. Read -> space -> O(1), Time -> O(n)
+  B. Modify -> space -> O(1), Time -> O(n)
+  C. Initialize -> space -> O(n), Time -> O(n)
+  D. Traversal -> space -> O(1), Time -> O(n)
+  E. Copy -> space -> O(1), Time -> O(n)
+  F. Insertion -> space -> O(1), Time -> O(n)
+  E. Deletion -> space -> O(1), Time -> O(n)
+
+Lesson no: 09 (Hash Table)
+1. In c++ the hash table is implemented as a unordered versions of map and sets
+2. Under the hood the hash tables are very complicated to make them more efficient
+3. Input -> pass through hash function -> create a value 
+4. There is possibility of collision which will be caused because of same output from hash fucntion
+5. Hash table stores the data in key -> value pair and Hash tables are associative data structure
+6. Multiple value for a key(collision) is stored in linked list or tree or other hash table
+7. Basic operation on the array (on average)
+  A. Search -> space -> O(1), Time -> O(1)
+  B. Insertion -> space -> O(1), Time -> O(1)
+  C. Deletion -> space -> O(1), Time -> O(1)
+
+Lesson no: 10 (Stacks and Queues)
+1. Stack is LIFO structure and Queue is FIFO
+2. Both can be implemented using linked list or array
+3. Basic operation on the array 
+  A. Search -> space -> O(1), Time -> O(n)
+  B. Insertion -> space -> O(1), Time -> O(1)
+  C. Deletion -> space -> O(1), Time -> O(1)
+
+Lesson no: 11 (String)
+1. String is stored as a array of integer using ASCII coding standard(English char)
+2. strings in c++ are mutable that means adding characters in string is constant time
+3. Basic operation on the string (
+  A. Traversal -> space -> O(1), Time -> O(n)
+  B. Copy -> space -> O(n), Time -> O(n)
+  C. search -> space -> O(1), Time -> O(1)
+
+Lesson no: 12 (Graphs)
+1. Graphs is datastructure int which nodes are may or may not be connected to one another
+2. Graph is defined by vertices and edges
+3. Graph can be defined as a connected or disconnected, directed or undirected, cyclic or acyclic graph.
+4. Graph is stored as a adjacency matrix or adjacency list based on the connectivity
+5. Graph is traverse using BFS and DFS ways and space time complexivity is O(V+E)
+
+Lesson no: 12 (Tree)
+1. Tree is heirarchical datastructure
+2. Tree is type of graph which is rooted ie. only one parent and only one way to reach the node and tree cant be disconnected
+3. Famous type of tree is binary tree where every node has atmost 2 childrens
+4. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
